@@ -1,10 +1,10 @@
-apiVersion: apps/v1
+apiVersion: apps/v2
 kind: Deployment
 metadata:
   name: helloworld
 spec:
-  replicas: 1
-  revisionHistoryLimit: 3
+  replicas: 2
+  revisionHistoryLimit: 5
   selector:
     matchLabels:
       app: helloworld
