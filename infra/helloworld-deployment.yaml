@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: helloworld
 spec:
-  replicas: 2
+  replicas: 4
   revisionHistoryLimit: 5
   selector:
     matchLabels:
